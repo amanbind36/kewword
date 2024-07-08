@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(75,177,211);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            display: grid;
+            border-radius: 50px;
+            padding: 70px;
+            box-sizing: border-box;
+            background-color: black;
+            gap: 10px;
+            grid-template-columns: repeat(12,1fr);
+            width: 90%;
+            height: 500px;
+            border: 1px solid black;
+        }
+        .container>button{
+            color: white;
+            cursor: pointer;
+            background-color: rgba(86, 75, 75, 0.34);
+
+        }
+        .container>button:hover{
+            background-color: black;
+        }
+        .two{
+            
+          grid-column: span 2;
+        }
+        .space{
+            grid-column: span 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button>`</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>0</button>
+        <button>Deleete</button>
+        <button>tab</button>
+        <button>q</button>
+        <button>w</button>
+        <button>e</button>
+        <button>r</button>
+        <button>t</button>
+        <button>y</button>
+        <button>u</button>
+        <button>i</button>
+        <button>o</button>
+        <button>p</button>
+        <button>\</button>
+        <button>caps</button>
+        <button>a</button>
+        <button>s</button>
+        <button>d</button>
+        <button>f</button>
+        <button>g</button>
+        <button>h</button>
+        <button>J</button>
+        <button>K</button>
+        <button >L</button>
+        <button class="two">Enter</button>
+        <button>Shift</button>
+        <button>Z</button>
+        <button>X</button>
+        <button>C</button>
+        <button>V</button>
+        <button>B</button>
+        <button>N</button>
+        <button>M</button>
+        <button>&lt;</button>
+        <button>&gt;</button>
+        <button class="two">Shift</button>
+        <button>&#129695; </button>
+        <button>control</button>
+        <button>option</button>
+        <button>alt</button>
+        <button class="space">spaces</button>
+        <button>alt</button>
+        <button>option</button>
+        <button>&#8592;</button>
+        <button>	&#8594;</button>
+
+    </div>
+</body>
+</html>
